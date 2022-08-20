@@ -8,7 +8,7 @@ image:
   repository: djagielo/oe-todo-tasks
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "main-ff7183cfe61000e50cc413088ceecd20a76bd763"
+  tag: "main-79033caa273da25c153fe303600270a7a7ca7bdb"
 
 imagePullSecrets: []
 nameOverride: ""
