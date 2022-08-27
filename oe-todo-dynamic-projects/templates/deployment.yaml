@@ -54,7 +54,7 @@ spec:
       volumes:
         - name: config
           configMap:
-            name: oe-todo-config-map
+            name: oe-todo-dynamic-projects-config-map
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
