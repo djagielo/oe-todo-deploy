@@ -8,7 +8,7 @@ image:
   repository: djagielo/oe-todo-dynamic-projects
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "main-8bb4976cf75fae10ac8c427e6dc58dca976b290b"
+  tag: "main-19b9544211cab1b7f23c632b3325a4f3d40edef8"
 
 imagePullSecrets: []
 nameOverride: ""
