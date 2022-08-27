@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "oe-todo-dynamic-projects-deploy.fullname" . }}-nodeport
+  namespace: default
+  labels:
+    {{- include "oe-todo-dynamic-projects-deploy.labels" . | nindent 4 }}
+spec:
+  type: NodePort
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+      nodePort: {{ .Values.service.nodePort }}
+  selector:
+    {{- include "oe-todo-dynamic-projects-deploy.selectorLabels" . | nindent 4 }}
