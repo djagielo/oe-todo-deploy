@@ -39,7 +39,7 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 9991
-  nodePort: 31111
+  nodePort: 31112
 
 ingress:
   enabled: false
