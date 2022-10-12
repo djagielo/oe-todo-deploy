@@ -8,7 +8,7 @@ metadata:
 data:
   application.yml: |-
     server:
-      port: 9991
+      port: 9992
     spring:
       r2dbc:
         url: r2dbc:mariadb://westworld:30006/dynamic_projects
