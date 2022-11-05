@@ -19,3 +19,6 @@ data:
         port: 5672
         username: user1
         password: luVpvEEEyz9oZMsU
+    tasksClient:
+      url: http://westworld:31111/tasks
+      timeoutMs: 3000
