@@ -13,7 +13,7 @@ data:
       r2dbc:
         url: r2dbc:mariadb://westworld:30006/dynamic_projects
         username: root
-        password: secretpassword
+        password: dt6peaYKBE
       rabbitmq:
         host: rabbitmq
         port: 5672

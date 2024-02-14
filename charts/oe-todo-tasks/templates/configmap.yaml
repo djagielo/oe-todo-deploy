@@ -13,7 +13,7 @@ data:
       datasource:
         url: jdbc:mariadb://mariadb:3306/overengineered-todo
         username: root
-        password: secretpassword
+        password: dt6peaYKBE
         initialization-mode: always
       jpa:
         show-sql: true
