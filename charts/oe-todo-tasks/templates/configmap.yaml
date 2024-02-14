@@ -11,7 +11,7 @@ data:
       port: 9991
     spring:
       datasource:
-        url: jdbc:mariadb://mariadb:3306/overengineered-todo
+        url: jdbc:mariadb://mariadb:3306/todo
         username: root
         password: dt6peaYKBE
         initialization-mode: always
